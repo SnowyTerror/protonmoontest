@@ -1,15 +1,15 @@
 {
-	"producer_account_name": "protonmoon",
+	"producer_account_name": "protonmoont",
 	"org": {
 		"candidate_name": "Proton Moon",
-		"website": "https://snowyterror.github.io/protonmoon/",
-		"code_of_conduct": "https://snowyterror.github.io/protonmoon/",
+		"website": "https://testnet.protonmoon.com",
+		"code_of_conduct": "https://testnet.protonmoon.com",
 		"email": "protonmoon0@gmail.com",
-		"ownership_disclosure": "https://snowyterror.github.io/protonmoon/owner.html",
+		"ownership_disclosure": "https://testnet.protonmoon.com/owner.html",
 		"branding": {
-			"logo_256": "https://snowyterror.github.io/protonmoon/logo_256.png",
-			"logo_1024": "https://snowyterror.github.io/protonmoon/logo_1024.png",
-			"logo_svg": "https://snowyterror.github.io/protonmoon/logo_bp.svg"
+			"logo_256": "https://testnet.protonmoon.com/logo_256.png",
+			"logo_1024": "https://testnet.protonmoon.com/logo_1024.png",
+			"logo_svg": "https://testnet.protonmoon.com/logo_bp.svg"
 		},
 		"location": {
 			"name": "Belfast",
@@ -31,6 +31,31 @@
 				"longitude": 5.9301
 			},
 			"node_type": "producer"
+		},
+		{
+			"location": {
+				"name": "Belfast",
+				"country": "GB",
+				"latitude": 54.5973,
+				"longitude": 5.9301
+			},
+			"p2p_endpoint": "p2ptestnet.protonmoon.com:9876",
+			"node_type": "seed"
+		},
+		{
+			"location": {
+				"name": "Belfast",
+				"country": "GB",
+				"latitude": 54.5973,
+				"longitude": 5.9301
+			},
+			"api_endpoint": "http://apitest.protonmoon.com",
+			"ssl_endpoint": "https://apitest.protonmoon.com",
+			"node_type": "query",
+			"features": [
+				"chain-api"
+			]
 		}
 	]
+	
 }
