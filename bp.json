@@ -49,8 +49,8 @@
 				"latitude": 54.5973,
 				"longitude": 5.9301
 			},
-			"api_endpoint": "http://apitest.protonmoon.com",
-			"ssl_endpoint": "https://apitest.protonmoon.com",
+			"api_endpoint": "http://apitest.protonmoon.com:8888",
+			"ssl_endpoint": "https://apitest.protonmoon.com:8888",
 			"node_type": "query",
 			"features": [
 				"chain-api"
